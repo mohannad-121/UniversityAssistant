@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">مرشدي</title>
+  <desc id="desc">Smart university guide logo with a friendly robot and graduation cap.</desc>
+  <defs>
+    <linearGradient id="ring" x1="88" y1="92" x2="426" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3b82f6"/>
+      <stop offset=".55" stop-color="#20c7b7"/>
+      <stop offset="1" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="face" x1="181" y1="205" x2="330" y2="339" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#123d73"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="cap" x1="165" y1="121" x2="349" y2="204" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#123d73" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#f8fbff"/>
+  <g filter="url(#softShadow)">
+    <path d="M117 304a154 154 0 0 1 17-137" fill="none" stroke="#2f73d0" stroke-width="17" stroke-linecap="round"/>
+    <path d="M173 101a154 154 0 0 1 221 55" fill="none" stroke="url(#ring)" stroke-width="17" stroke-linecap="round"/>
+    <path d="M413 211a154 154 0 0 1-99 172" fill="none" stroke="#20bda7" stroke-width="17" stroke-linecap="round"/>
+    <path d="M268 399a154 154 0 0 1-127-48" fill="none" stroke="#2563eb" stroke-width="17" stroke-linecap="round"/>
+    <circle cx="389" cy="159" r="16" fill="#fff7d6" stroke="#22c5ad" stroke-width="9"/>
+    <circle cx="118" cy="270" r="12" fill="#9fe7ff" stroke="#2563eb" stroke-width="8"/>
+    <circle cx="333" cy="396" r="12" fill="#b9f8eb" stroke="#14b8a6" stroke-width="8"/>
+    <circle cx="276" cy="95" r="12" fill="#8ee7ff" stroke="#3b82f6" stroke-width="8"/>
+    <g>
+      <path d="M166 139 256 94l90 45-90 45-90-45Z" fill="url(#cap)" stroke="#123d73" stroke-width="10" stroke-linejoin="round"/>
+      <path d="M205 157v48c0 27 23 49 51 49s51-22 51-49v-48" fill="#3b82f6" stroke="#123d73" stroke-width="10"/>
+      <path d="M346 141v52" stroke="#123d73" stroke-width="9" stroke-linecap="round"/>
+      <circle cx="346" cy="199" r="11" fill="#fb923c" stroke="#123d73" stroke-width="7"/>
+    </g>
+    <g>
+      <rect x="150" y="200" width="212" height="139" rx="64" fill="#eaf7ff" stroke="#123d73" stroke-width="11"/>
+      <rect x="178" y="224" width="156" height="82" rx="35" fill="url(#face)"/>
+      <path d="M219 267c7-18 25-18 32 0M261 287c18 19 43 19 61 0M296 267c7-18 25-18 32 0" fill="none" stroke="#f8fbff" stroke-width="10" stroke-linecap="round"/>
+      <path d="M149 249h-15c-13 0-23 10-23 23v8c0 13 10 23 23 23h15" fill="#22c5ad" stroke="#123d73" stroke-width="10"/>
+      <path d="M363 249h15c13 0 23 10 23 23v8c0 13-10 23-23 23h-15" fill="#22c5ad" stroke="#123d73" stroke-width="10"/>
+      <path d="M224 339c-24 7-41 24-48 47M288 339c24 7 41 24 48 47" fill="none" stroke="#123d73" stroke-width="10" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(71 131)">
+      <circle cx="45" cy="45" r="34" fill="#fff" stroke="#fb923c" stroke-width="10"/>
+      <circle cx="34" cy="43" r="4.5" fill="#fb923c"/>
+      <circle cx="45" cy="43" r="4.5" fill="#fb923c"/>
+      <circle cx="56" cy="43" r="4.5" fill="#fb923c"/>
+      <path d="M30 70 20 87l24-11" fill="#fff" stroke="#fb923c" stroke-width="8" stroke-linejoin="round"/>
+    </g>
+    <g transform="translate(351 310)">
+      <rect x="14" y="10" width="74" height="93" rx="12" fill="#fff" stroke="#123d73" stroke-width="8"/>
+      <path d="M31 33h39M31 51h32M31 69h28" stroke="#20bda7" stroke-width="7" stroke-linecap="round"/>
+      <path d="m38 80 18 18 45-52" fill="none" stroke="#20bda7" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="m89 45 13-13" stroke="#fb923c" stroke-width="9" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
